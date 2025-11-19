@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手语视频库 - 宝宝手语</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <!-- 同样的导航栏，复制自index.html -->
+    </nav>
+
+    <section class="videos-library">
+        <div class="container">
+            <h1>手语视频库</h1>
+            <div class="video-categories">
+                <button class="category-btn active" data-category="all">全部</button>
+                <button class="category-btn" data-category="basic">基础手势</button>
+                <button class="category-btn" data-category="food">食物相关</button>
+                <button class="category-btn" data-category="emotion">情感表达</button>
+            </div>
+
+            <div class="videos-grid">
+                <!-- 视频卡片示例 -->
+                <div class="video-item" data-category="basic">
+                    <div class="video-player">
+                        <!-- 替换为你的实际视频链接 -->
+                        <video controls poster="images/thumb-eat.jpg">
+                            <source src="videos/eat.mp4" type="video/mp4">
+                            您的浏览器不支持视频播放
+                        </video>
+                    </div>
+                    <div class="video-info">
+                        <h3>"吃"的手语</h3>
+                        <p>演示者：张三</p >
+                        <p>将手指轻轻点在嘴唇前，模拟吃饭的动作</p >
+                    </div>
+                </div>
+
+                <div class="video-item" data-category="food">
+                    <div class="video-player">
+                        <video controls poster="images/thumb-milk.jpg">
+                            <source src="videos/milk.mp4" type="video/mp4">
+                            您的浏览器不支持视频播放
+                        </video>
+                    </div>
+                    <div class="video-info">
+                        <h3>"牛奶"的手语</h3>
+                        <p>演示者：李四</p >
+                        <p>模仿挤牛奶的手势，一手握拳，另一手做挤压动作</p >
+                    </div>
+                </div>
+
+                <!-- 添加更多视频项目 -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- 页脚 -->
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
